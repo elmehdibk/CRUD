@@ -9,9 +9,6 @@
 </head>
 <body>
     <?php 
-        // if(!isset($_POST['modif'])){
-        //     header('location: index.php');
-        // }
         require_once 'nav.php';
         include_once 'db.php';
         $id1=$_POST['id'];
